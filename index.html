@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" href="tTt.icon.png">
+  <title>Tic - Tac - Toe</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Miniver&family=Open+Sans:wght@300;400;600&family=Pacifico&family=Permanent+Marker&family=Roboto:ital,wght@0,700;0,900;1,700&family=Rubik+Iso&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+  <header class="header">
+    <span class="headerPhrase">Tic - Tac - Toe</span>
+  </header>
+  <div class="main">
+    <div class="currentPlayer">
+      <span class="nowStep">Сейчас ход:
+        <span id="curPlyr"></span>
+    </span>
+    </div>
+
+    <div class="area"></div>
+
+    <div class="statistic">
+      <table>
+        <th class = "statsText"colspan="2">Статистика</th>
+        <tr>
+          <td class="xText">X</td>
+          <td class="uxText"><span id="statsX"></span></td>
+        </tr>
+        <tr>
+          <td class="oText">O</td>
+          <td class="unText"><span id="statsO"></span></td>
+        </tr>
+        <tr>
+          <td class="dText">Ничьи</td>
+          <td class="usText"><span id="statsD"></span></td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="index.js"></script>
+  </div>
+</body>
+</html>

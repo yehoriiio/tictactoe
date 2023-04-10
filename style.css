@@ -1,0 +1,99 @@
+
+.main {
+  display: flex;
+  margin: 70px 50px 50px 50px;
+}
+.area {
+  width: 456px;
+  border: 1px solid black;
+  margin: 0 auto;
+  font-size: 0;
+}
+.cell {
+  width: 150px;
+  height: 150px;
+  line-height: 150px;
+  text-align: center;
+  display: inline-block;
+  font-size: 96px;
+  border: 1px solid black;
+  cursor: pointer;
+  vertical-align: middle;
+}
+
+.cell:hover {
+  background-color: wheat;
+}
+
+.currentPlayer {
+  width: 120px;
+  font-size: 19px;
+  display: flex;
+  align-items: center;
+  color: black;
+  font-family: 'Miniver', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.statistic {
+  display: flex;
+  align-items: center;
+  font-size: 19px;
+  font-family: 'Miniver', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Permanent Marker', cursive;
+}
+
+.statistic table {
+  border-collapse: collapse;
+}
+.statistic table, .statistic th, .statistic td {
+  border: 1px solid black;
+  padding: 18px;
+  text-align: center;
+}
+
+.statsText {
+  background-color: wheat;
+  
+}
+.xText {
+  background-color: blue;
+  font-size: larger;
+}
+.oText {
+  background-color: red;
+  font-size: larger;
+}
+.dText {
+  background-color: wheat;
+}
+.nowStep {
+  border: 1px solid black;
+  background-color: wheat;
+}
+.uxText {
+  background-color: blue;
+}
+.unText {
+  background-color: red;
+}
+.usText {
+  background-color: wheat;
+}
+.header {
+  text-align: center;
+  margin-top: 30px;
+  color: blue;
+  font-size: 100px;
+  font-family: 'Miniver', cursive;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Pacifico', cursive;
+  font-family: 'Permanent Marker', cursive;
+}
+.headerPhrase:hover {
+  color: red;
+}
